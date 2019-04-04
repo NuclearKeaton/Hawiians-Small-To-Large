@@ -1,0 +1,67 @@
+.clearfix:after { content: ""; display: block; clear: both;}
+
+@media screen and (min-width: 576px){
+  .sidebox-1
+  {
+    display: block;
+  }
+  .col1, .col2
+  {
+    width: 45%;
+    float: left;
+  }
+  .col3
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .main-content, .sidebar
+  {
+    float:none;
+    width: 100%;
+  }
+  .col1, .col2
+  {
+    margin-right: 5%;
+  }
+  .col3
+  {
+    margin-right: 0;
+  }
+  .sidebar
+  {
+    float: left;
+    display: block;
+    width: 30%;
+  }
+  .main-content
+  {
+    width: 65%;
+    float: left;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .col1,  .col2, .col3
+  {
+    width: 30%;
+    float: left;
+  }
+  .cols
+  {
+    clear: both;
+  }
+
+}
+@media screen and (min-width: 1280px)
+{
+  .col1, .col2, .col3
+  {
+    width: 30%;
+    float: left;
+  }
+}
